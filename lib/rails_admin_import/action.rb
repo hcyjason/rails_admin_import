@@ -16,7 +16,7 @@ module RailsAdmin
 
         register_instance_option :controller do
           proc do
-            logger.debug "abstract_model: #{@abstract_model.inspect}"
+            logger.info "abstract_model: #{@abstract_model.inspect}"
             @import_model = RailsAdminImport::ImportModel.new(@abstract_model)
   
             if request.post?
