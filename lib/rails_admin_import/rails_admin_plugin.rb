@@ -18,6 +18,6 @@ module RailsAdminImport
     end
   end
 end
-
+puts "rails admin add import extension"
 RailsAdmin.add_extension :import, RailsAdminImport::Extension,
   configuration: true
