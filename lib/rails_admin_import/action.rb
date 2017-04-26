@@ -1,4 +1,5 @@
 require "rails_admin/config/actions"
+require "rails_admin/config/model"
 
 module RailsAdmin
   module Config
